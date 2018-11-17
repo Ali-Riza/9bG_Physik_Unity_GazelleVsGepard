@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LANDSCHAFT\Savanna\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -74,8 +75,10 @@
     <Compile Include="Assets\Scripts\ConsoleLog.cs" />
     <Compile Include="Assets\Scripts\CubeScript.cs" />
     <Compile Include="Assets\Walk.cs" />
+    <None Include="Assets\LANDSCHAFT\Savanna\readme.txt.txt" />
     <None Include="Assets\Skyboxes\_skybox info.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\cheetah\Model\cheetahLP.txt" />
+    <None Include="Assets\LANDSCHAFT\Savanna\Standard Assets\Skyboxes\_skybox info.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Gazelle\Model\Gazelle.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\cheetah\Model\cheetah.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Gazelle\Model\GazelleLP.txt" />
