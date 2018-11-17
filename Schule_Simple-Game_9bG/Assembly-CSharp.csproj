@@ -70,39 +70,27 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\BasicAI.cs" />
+    <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\ConsoleLog.cs" />
     <Compile Include="Assets\Scripts\CubeScript.cs" />
-    <Compile Include="Assets\Tiger\Scripts\Walk.cs" />
     <Compile Include="Assets\Walk.cs" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Giraffe\Model\GiraffeLP.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Buffalo\Model\BuffaloLP.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Tiger\Model\Tiger.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Gorilla\Model\Gorilla.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Hyena\Model\HyenaLP.txt" />
     <None Include="Assets\Skyboxes\_skybox info.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\cheetah\Model\cheetahLP.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Tiger\Model\TigerLP.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Dromader\Model\Dromader.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Hyena\Model\Hyena.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Gazelle\Model\Gazelle.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Gorilla\Model\GorillaLP.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Buffalo\Model\Buffalo.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Giraffe\Model\Giraffe.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\cheetah\Model\cheetah.txt" />
     <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Gazelle\Model\GazelleLP.txt" />
-    <None Include="Assets\Tiere\AFRIKANISCHE TIERE\Dromader\Model\DromaderLP.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Ali Riza/Documents/Schule_Simple-Game_9bG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Ali Riza/9bG_Physik_Unity_GazelleVsGepard/Schule_Simple-Game_9bG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Ali Riza/Documents/Schule_Simple-Game_9bG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Ali Riza/9bG_Physik_Unity_GazelleVsGepard/Schule_Simple-Game_9bG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Ali Riza/Documents/Schule_Simple-Game_9bG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Ali Riza/9bG_Physik_Unity_GazelleVsGepard/Schule_Simple-Game_9bG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Ali Riza/Documents/Schule_Simple-Game_9bG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Ali Riza/9bG_Physik_Unity_GazelleVsGepard/Schule_Simple-Game_9bG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

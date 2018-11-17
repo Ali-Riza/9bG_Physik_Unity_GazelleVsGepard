@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BasicAI : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class BasicAI : MonoBehaviour
     public float Distance;
     private Rigidbody rb;
     public Animation anim;
+    public Text textUi;
+    private float nextActionTime = 0.0f;
+    public float period = 0.05f;
+    public AudioClip MusicClip;
+    public AudioSource MusicSource;
 
     float x;
     float y;
@@ -18,8 +24,7 @@ public class BasicAI : MonoBehaviour
     void Start()
     {
         Debug.Log("Start Game");
-
-        x = Random.Range(-90, 0);
+        MusicSource = GetComponent<AudioSource>(); x = Random.Range(-90, 0);
         y = 5;
         z = Random.Range(-50, 38);
         pos = new Vector3(x, y, z);
@@ -29,6 +34,7 @@ public class BasicAI : MonoBehaviour
 
     void Update()
     {
+           
         gepard.transform.LookAt(gazellle); //schau Target an
         gepard.transform.Translate(Vector3.forward * 15 * Time.deltaTime); //Bewege dich zum Target
         Distance = Vector3.Distance(gazellle.transform.position, gepard.transform.position);
@@ -44,6 +50,8 @@ public class BasicAI : MonoBehaviour
         if (Distance < 5) //if position_gepard zu position_gazelle <5{
         {
             Debug.Log("Distance < 5");
+            //audioData = GetComponent<AudioClip>();
+            MusicSource.PlayOneShot(MusicClip, 0.7F);
 
             x = Random.Range(-90, 0);
             y = 5;
@@ -54,6 +62,12 @@ public class BasicAI : MonoBehaviour
             //gazellle.transform.position = Vector3.zero;
             //gepard.transform.position = Vector3.zero;
         }
+        if (Time.time > nextActionTime)
+        {
+            nextActionTime += period;
+            textUi.text = "Distance: " + Distance;
+        }
+        
     }
 }
 

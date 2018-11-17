@@ -1,0 +1,30 @@
+TODOS:
+
+
+Create Main Menu (https://www.youtube.com/watch?v=n11oq0Er9h4&t=470s):
+
+-1 Button "Start Game"
+-Background Music
+
+
+--------------------------------------------------------------
+
+
+Sounds (vhttps://www.youtube.com/watch?v=yE0JdtVTnVk):
+
+Cheetah:
+- Cheetah slow/quite sound from beginning 
+- if start to run --> running sounds!
+
+Gazelle:
+- if distance lower than 5, than start Gazelle sound.
+
+--------------------------------------------------------------
+Design World
+
+- design the world!
+
+
+--------------------------------------------------------------
+
+
