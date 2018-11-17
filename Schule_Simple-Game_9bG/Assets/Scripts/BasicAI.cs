@@ -43,7 +43,7 @@ public class BasicAI : MonoBehaviour
             Debug.Log("Distance < 70");
             gazellle.transform.LookAt(gepard);
             gazellle.transform.Rotate(0, 180, 0);
-            gepard.transform.Translate(Vector3.forward * 30 * Time.deltaTime); //Bewege dich zum Target
+            gepard.transform.Translate(Vector3.forward * 25 * Time.deltaTime); //Bewege dich zum Target
             gazellle.transform.Translate(Vector3.forward * 20 * Time.deltaTime);
         }
 
@@ -65,7 +65,7 @@ public class BasicAI : MonoBehaviour
         if (Time.time > nextActionTime)
         {
             nextActionTime += period;
-            textUi.text = "Distance: " + Distance;
+            textUi.text = "Distance: " + (Distance - 10);
         }
         
     }
