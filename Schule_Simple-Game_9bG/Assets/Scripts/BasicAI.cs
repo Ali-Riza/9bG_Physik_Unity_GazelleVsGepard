@@ -36,11 +36,11 @@ public class BasicAI : MonoBehaviour
     {
            
         gepard.transform.LookAt(gazellle); //schau Target an
-        gepard.transform.Translate(Vector3.forward * 15 * Time.deltaTime); //Bewege dich zum Target
+        gepard.transform.Translate(Vector3.forward * 30 * Time.deltaTime); //Bewege dich zum Target
         Distance = Vector3.Distance(gazellle.transform.position, gepard.transform.position);
         Debug.Log(Distance);
-        if (Distance < 70) {
-            Debug.Log("Distance < 70");
+        if (Distance < 50) {
+            Debug.Log("Distance < 50");
             gazellle.transform.LookAt(gepard);
             gazellle.transform.Rotate(0, 180, 0);
             gepard.transform.Translate(Vector3.forward * 25 * Time.deltaTime); //Bewege dich zum Target
