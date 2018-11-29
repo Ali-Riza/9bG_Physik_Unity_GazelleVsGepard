@@ -70,8 +70,12 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\Scene100\BasicAI100.cs" />
+    <Compile Include="Assets\Scripts\Scene100\CubeScript100.cs" />
     <Compile Include="Assets\Scripts\Scene200\BasicAI.cs" />
     <Compile Include="Assets\Scripts\Scene200\CubeScript.cs" />
+    <Compile Include="Assets\Scripts\Scene50\BasicAI50.cs" />
+    <Compile Include="Assets\Scripts\Scene50\CubeScript50.cs" />
     <Compile Include="Assets\Walk.cs" />
     <None Include="Assets\LANDSCHAFT\Savanna\readme.txt.txt" />
     <None Include="Assets\Skyboxes\_skybox info.txt" />

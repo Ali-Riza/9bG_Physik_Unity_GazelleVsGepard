@@ -25,9 +25,9 @@ public class BasicAI : MonoBehaviour
     {
         Debug.Log("Start Game");
         MusicSource = GetComponent<AudioSource>();
-        x = Random.Range(200, -200);
+        x = Random.Range(250, -250);
         y = 5;
-        z = Random.Range(200, -200);
+        z = Random.Range(250, -250);
         pos = new Vector3(x, y, z);
         gazellle.transform.position = pos;
     }
@@ -54,9 +54,9 @@ public class BasicAI : MonoBehaviour
             //audioData = GetComponent<AudioClip>();
             MusicSource.PlayOneShot(MusicClip, 0.7F);
 
-            x = Random.Range(200, -200);
+            x = Random.Range(250, -250);
             y = 5;
-            z = Random.Range(200, -200);
+            z = Random.Range(250, -250);
             pos = new Vector3(x, y, z);
             gazellle.transform.position = pos;
 
