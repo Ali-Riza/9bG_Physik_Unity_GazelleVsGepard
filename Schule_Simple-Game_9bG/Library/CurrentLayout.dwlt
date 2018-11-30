@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 96
+  controlID: 69
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 70
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 71
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,13 +255,13 @@ MonoBehaviour:
     height: 454
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,20 +349,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Scene200
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Scene200
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Ali Riza\9bG_Physik_Unity_GazelleVsGepard\Schule_Simple-Game_9bG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22110000
-    m_LastClickedID: 4386
-    m_ExpandedIDs: 000000006e0a0000dc0a0000a00b0000960c0000ec0c0000ca0e0000140f00002e0f0000aa0f00002210000018110000e4110000d61200007c1300006a1400000a150000bc150000ca160000b4190000cc190000c81a0000fa1a0000681b0000001c0000aa1d0000da1d0000e61d0000b21e0000e81e0000261f00000e42000010420000124200001442000000ca9a3b
+    m_SelectedIDs: 60120000
+    m_LastClickedID: 4704
+    m_ExpandedIDs: 00000000720a0000e00a0000a40b00009a0c0000f00c0000ce0e0000180f0000320f0000ae0f0000261000001c110000d4110000e8110000da120000801300006e1400000e150000c0150000ce160000ba190000d2190000ce1a0000001b00006e1b0000041c0000ae1d0000de1d0000ea1d0000b61e0000ec1e00002a1f00009c4500009e450000a0450000a245000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -390,7 +390,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e0a0000dc0a0000a00b0000960c0000ec0c0000ca0e0000140f00002e0f0000aa0f00002210000018110000d0110000e4110000d61200007c1300006a1400000a150000bc150000ca160000b4190000cc190000c81a0000fa1a0000681b0000001c0000aa1d0000da1d0000e61d0000e81e0000261f00000e420000104200001242000014420000
+    m_ExpandedIDs: 00000000720a0000e00a0000a40b00009a0c0000f00c0000ce0e0000180f0000320f0000ae0f0000261000001c110000d4110000e8110000da120000801300006e1400000e150000c0150000ce160000ba190000d2190000ce1a0000001b00006e1b0000041c0000ae1d0000de1d0000ea1d0000b61e0000ec1e00002a1f00009c4500009e450000a0450000a2450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,26 +508,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 281bf7fff01bf7ff9e1ff7ffbc1ff7ff0422f7ff1c22f7ff5a33f7ffda86f7ffec98f7ff161cf9ff581cf9ff1223f9ff662bf9ff2e2cf9ff422ef9ff0c30f9ff5632f9ff6632f9ff9c93f9ff4497f9ff66a1f9ff10a8f9ff20a9f9ff26b8f9ff826bfaffc8c9faff0823fbff2a4ffbff6e55fbff0aa2fbff5076fcffd076fcff34b5fcff66e4fcffeae9fcffa0ebfcff3cecfcff4cecfcffae0ffdff5c14fdff2815fdffda18fdff941afdffca1cfdffd81cfdff3c2ffdff0830fdff2235fdffdc36fdff1439fdff2239fdffd259fdff226dfdffca74fdffea7cfdff7885fdff4e8bfdff149efdff6ea1fdff4ca9fdff88c0fdffa6c9fdfffad2fdff86e2fdff86e7fdff56effdff34f6fdfff4fefdff1c0dfeff0419feff1424feff322efeffb839feff3ad4ffff1cdbffff1ee1ffff34e4ffffe8e6ffff86ecffffe4fbffff00000000e64d00001c4e00002e4e00004a4e00001060000020980000c8ce000000cf0000bade000060e4000000e50000daea0000200e0100740e0100e0330100f0330100064e01001c4e0100b2610100
+    m_ExpandedIDs: a024fdff6225fdff7627fdff4029fdff8a2bfdffa22bfdffda9bfdff462bffffe4fbffff0000000098210000a44b0000324c0000664c0000cc6a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: FPSController
-      m_OriginalName: FPSController
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -451562
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Scene100
+  - Scene200
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -558,14 +558,14 @@ MonoBehaviour:
     height: 433
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 4249.818769669105
+  lastFramingTime: 350.95791888131333
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 154.33273, y: 10.93, z: 259.25}
+    m_Target: {x: 182.66174, y: 3.561904, z: 209.44228}
     speed: 2
-    m_Value: {x: 154.33273, y: 10.93, z: 259.25}
+    m_Value: {x: 182.66174, y: 3.561904, z: 209.44228}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -593,19 +593,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Target: {x: 0.073555335, y: -0.87229216, z: 0.13853471, w: 0.46314594}
     speed: 2
-    m_Value: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
+    m_Value: {x: 0.073555335, y: -0.87229216, z: 0.13853471, w: 0.46314594}
   m_Size:
-    m_Target: 29.697193
+    m_Target: 21.733973
     speed: 2
-    m_Value: 29.697193
+    m_Value: 21.733973
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.51176274, y: 0.013662785, z: -0.008140338, w: -0.85897964}
+  m_LastSceneViewRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -656,9 +656,9 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

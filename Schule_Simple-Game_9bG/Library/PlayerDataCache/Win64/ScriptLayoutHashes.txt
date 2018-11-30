@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Ali Riza/Desktop/Hausarbeit Physik NEU/Schule_Simple-Game_9bG.exe
+C:/Users/Ali Riza/Desktop/Physik Hausarbeit/Schule_Simple-Game_9bG.exe
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/Scene50.unity
